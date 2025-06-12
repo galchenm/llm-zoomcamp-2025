@@ -68,11 +68,11 @@ We will execute a query "How do execute a command on a Kubernetes pod?".
 
 Use only `question` and `text` fields and give `question` a boost of 4, and use `"type": "best_fields"`.
 
-What's the score for the top ranking result?
+What's the score for the top ranking result? 44.50556
 
 * 84.50
 * 64.50
-* 44.50
+* 44.50 **
 * 24.50
 
 Look at the `_score` field.
@@ -86,7 +86,7 @@ This time we are only interested in questions from `machine-learning-zoomcamp`.
 Return 3 results. What's the 3rd question returned by the search engine?
 
 * How do I debug a docker container?
-* How do I copy files from a different folder into docker container’s working directory?
+* How do I copy files from a different folder into docker container’s working directory? **
 * How do Lambda container images work?
 * How can I annotate a graph?
 
@@ -120,7 +120,7 @@ CONTEXT:
 What's the length of the resulting prompt? (use the `len` function)
 
 * 946
-* 1446
+* 1446 **
 * 1946
 * 2446
 
@@ -145,7 +145,7 @@ Use the `encode` function. How many tokens does our prompt have?
 
 * 120
 * 220
-* 320
+* 320 **
 * 420
 
 Note: to decode back a token into a word, you can use the `decode_single_token_bytes` function:
