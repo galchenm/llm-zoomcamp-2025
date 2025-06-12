@@ -13,7 +13,7 @@ Run Elastic Search 8.17.6, and get the cluster information. If you run it on loc
 curl localhost:9200
 ```
 
-What's the `version.build_hash` value? == dbcbbbd0bc4924cfeb28929dc05d82d662c527b7
+What's the `version.build_hash` value? == da95df118650b55a500dcc181889ac35c6d8da7c
 
 
 ## Getting the data
@@ -56,7 +56,7 @@ pip install elasticsearch
 Which function do you use for adding your data to elastic?
 
 * `insert`
-* `index`
+* `index` **
 * `put`
 * `add`
 
